@@ -1,0 +1,154 @@
+.chips-exchange-sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  background-color: #C2D4FF;
+  z-index: 2;
+  padding: 100px 0 0 50px;
+}
+
+.chips-exchange-sidebar .sidebar-area {
+  position: relative;
+}
+
+.chips-exchange-sidebar .sidebar-area .sidebar-menu {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.chips-exchange-sidebar .sidebar-area .sidebar-menu li {
+  margin-bottom: 16px;
+}
+
+.chips-exchange-sidebar .sidebar-area .sidebar-menu li .nav-item {
+  display: block;
+  color: #5A5A5A;
+  margin-bottom: 0;
+  transition: all 0.3s ease-in-out;
+  padding: 10px;
+}
+
+.chips-exchange-sidebar .sidebar-area .sidebar-menu li .nav-item .icon {
+  position: relative;
+  top: -2px;
+  margin-right: 21px;
+}
+
+.chips-exchange-sidebar .sidebar-area .sidebar-menu li .nav-item .icon svg path {
+  fill: #5A5A5A60;
+  transition: all 0.3s ease-in-out;
+}
+
+.chips-exchange-sidebar .sidebar-area .sidebar-menu li .nav-item:hover,
+.chips-exchange-sidebar .sidebar-area .sidebar-menu li .nav-item.active {
+  border-radius: 4px 0 0 4px;
+  background: #156CF7;
+  color: #fff;
+}
+
+.chips-exchange-sidebar .sidebar-area .sidebar-menu li .nav-item:hover .icon svg path,
+.chips-exchange-sidebar .sidebar-area .sidebar-menu li .nav-item.active .icon svg path{
+  fill: #fff;
+}
+
+.chips-exchange-sidebar .sidebar-area .sidebar-menu li:last-child .nav-item .nav-item .icon svg path {
+    fill: transparent !important;
+    stroke: #5A5A5A60;
+}
+.chips-exchange-sidebar .sidebar-area .sidebar-menu li:last-child .nav-item .icon svg path {
+    fill: transparent;
+    stroke: #5A5A5A60;
+}
+.chips-exchange-sidebar .sidebar-area .sidebar-menu li:last-child .nav-item.active .icon svg path, .chips-exchange-sidebar .sidebar-area .sidebar-menu li:last-child .nav-item:hover .icon svg path {
+    stroke: #fff;
+}
+
+.chips-exchange-sidebar .sidebar-area.mobile-sidebar-area {
+  display: none;
+}
+.chips-exchange-sidebar .navbar-toggler {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+/* ========== Custom Scroll Styles =========== */
+
+/* width */
+.chips-exchange-sidebar::-webkit-scrollbar {
+  width: 0;
+}
+
+/* Track */
+.chips-exchange-sidebar::-webkit-scrollbar-track {
+  background: #E6E1DC;
+}
+
+/* Handle */
+.chips-exchange-sidebar::-webkit-scrollbar-thumb {
+  background: #17090A;
+}
+
+/* Handle on hover */
+.chips-exchange-sidebar::-webkit-scrollbar-thumb:hover {
+  background: #17090A;
+}
+.singup-page .navbar-toggler.sidebar-nav-toggle {
+  position: relative;
+  margin-top: -13px;
+  margin-bottom: 0;
+  display: none;
+  z-index: 999;
+}
+@media(max-width: 991px){
+  .chips-exchange-sidebar .sidebar-area.mobile-sidebar-area,
+  .chips-exchange-sidebar .navbar-toggler,
+  .singup-page .navbar-toggler.sidebar-nav-toggle{
+    display: block;
+  }
+  .chips-exchange-sidebar .sidebar-area{
+    display: none;
+  }
+  .chips-exchange-sidebar {
+    width: 66px;
+    padding: 100px 8px;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .chips-exchange-sidebar .sidebar-area .sidebar-menu li .nav-item {
+    padding: 13px;
+  }
+  .chips-exchange-sidebar .sidebar-area .sidebar-menu li .nav-item:hover, .chips-exchange-sidebar .sidebar-area .sidebar-menu li .nav-item.active {
+      border-radius: 4px;
+      padding: 13px;
+  }
+  .singup-page.active .chips-exchange-sidebar.active {
+    width: 300px;
+    padding: 100px 0 0 50px;
+  }
+  .singup-page.active .chips-exchange-sidebar.active .sidebar-area .sidebar-menu li .nav-item:hover, 
+  .singup-page.active .chips-exchange-sidebar.active .sidebar-area .sidebar-menu li .nav-item.active {
+    border-radius: 4px 0 0 4px;
+}
+  .singup-page.active .chips-exchange-sidebar.active .sidebar-area {
+      display: block;
+  }
+
+  .singup-page.active .chips-exchange-sidebar.active .sidebar-area.mobile-sidebar-area {
+      display: none;
+  }
+}
+
+
+@media(max-width: 767px){
+  .singup-page.active .chips-exchange-sidebar.active {
+    width: 222px;
+    padding: 100px 0 0 17px;
+  }
+  .chips-exchange-sidebar .sidebar-area .sidebar-menu li .nav-item {
+      font-size: 13px;
+  }
+}

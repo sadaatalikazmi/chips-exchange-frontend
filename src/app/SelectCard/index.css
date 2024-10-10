@@ -1,0 +1,333 @@
+
+.radio-buttons 
+{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.custom-radio input 
+{
+  display: none;
+}
+
+.radio-btn 
+{
+  margin: 10px;
+  width: 220px;
+  height: 240px;
+  border: 3px solid transparent;
+  display: inline-block;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  box-shadow: 0 0 20px #c3c3c367;
+  cursor: pointer;
+}
+
+.radio-btn > i {
+  color: #ffffff;
+  background-color: #FFDAE9;
+  font-size: 20px;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%) scale(2);
+  border-radius: 50px;
+  padding: 3px;
+  transition: 0.5s;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.radio-btn .hobbies-icon 
+{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.radio-btn .hobbies-icon img
+{
+  display:block;
+  width:100%;
+  margin-bottom:20px;
+  
+}
+.radio-btn .hobbies-icon i 
+{
+  color: #FFDAE9;
+  line-height: 80px;
+  font-size: 60px;
+}
+
+.radio-btn .hobbies-icon h3 
+{
+  color: #555;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing:1px;
+}
+
+.custom-radio input:checked + .radio-btn 
+{
+  border: 2px solid #FFDAE9;
+}
+
+.custom-radio input:checked + .radio-btn > i 
+{
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+}
+
+.radio-buttons.card-select-area {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    flex-wrap: wrap;
+    max-height: 150px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+.radio-buttons.card-select-area .radio-btns-area {
+    width: 33.33%;
+}
+.radio-buttons.card-select-area .custom-radio {
+    position: relative;
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+
+.radio-buttons.card-select-area .custom-radio .radio-btn {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    box-shadow: none;
+    background-color: #F4F4F4;
+    border: none !important;
+}
+
+.radio-buttons.card-select-area .custom-radio .radio-btn .hobbies-icon {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: translate(0, 0);
+}
+
+.radio-buttons.card-select-area .custom-radio .radio-btn .hobbies-icon img {
+    margin: 0;
+}
+
+.radio-buttons.card-select-area .custom-radio .radio-btn  .text-box {
+    text-align: left;
+    padding-left: 15px;
+    width: 70%;
+}
+
+.radio-buttons.card-select-area .custom-radio .radio-btn .text-box h3 {
+    color: var(--Bodytext-100, #0C0B18);
+    font-size: 14.486px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15.693px; /* 108.333% */
+}
+
+.radio-buttons.card-select-area .custom-radio .radio-btn .text-box p {
+    color: var(--Bodytext-50, #646464);
+    font-size: 9.257px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.693px; /* 162.5% */
+    margin-bottom: 0;
+}
+
+.radio-buttons.card-select-area .custom-radio .radio-btn .card-name {
+    margin-bottom: 0;
+    margin-top: 12px;
+    color: var(--Secondary-100, #FF8B1E);
+    font-size: 9.657px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.693px;
+    padding: 0 5px;
+}
+
+.radio-buttons.card-select-area .custom-radio input:checked + .radio-btn{
+    background-color: #156CF7;
+}
+.radio-buttons.card-select-area .custom-radio input:checked + .radio-btn .hobbies-icon svg {
+    fill: #fff;
+    stroke: #ffffff40;
+}
+
+.radio-buttons.card-select-area .custom-radio input:checked + .radio-btn .text-box h3, 
+.radio-buttons.card-select-area .custom-radio input:checked + .radio-btn .text-box p, 
+.radio-buttons.card-select-area .custom-radio input:checked + .radio-btn .card-name {
+    color: #fff;
+}
+.transaction-history-page {}
+
+.transaction-history-page .card-details-area {
+    position: relative;
+    width: 100%;
+}
+
+.transaction-history-page .card-details-area h3 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+}
+
+.transaction-history-page .card-details-area .card-box {
+    display: flex;
+    padding: 18px 20px;
+    border-radius: 16px;
+    border: 1.5px solid #156CF7;
+    position: relative;
+    align-items: center;
+}
+
+.transaction-history-page .card-details-area .card-box .icon {
+    margin-right: 15px;
+}
+
+.transaction-history-page .card-details-area .card-box .text-box {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.transaction-history-page .card-details-area .card-box .text-box h4 {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+     /* 16.8px */
+    margin-bottom: 0;
+}
+
+.transaction-history-page .card-details-area .card-box:before {
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #156CF7;
+    display: block;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.transaction-history-page .card-details-area .card-box:after {
+    content: "";
+    content: "";
+    position: absolute;
+    right: 19.5px;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    background-color: #156CF7;
+}
+.transaction-history-page .card-details-area .card-info {
+    position: relative;
+    border-radius: 12px;
+    background: linear-gradient(179deg, #156CF7 27.96%, #C2D4FF 271.03%);
+    padding: 25px 35px;
+    margin: 30px 0 10px;
+}
+
+.transaction-history-page .card-details-area .card-info label {
+    color: #fff !important;
+    text-align: center;
+    width: 100%;
+}
+.transaction-history-page .card-details-area .card-info .validatorForm {
+    padding: 0;
+}
+
+.transaction-history-page .card-details-area .card-info .validatorForm .MuiFormControl-root .MuiInputBase-root {
+    padding: 9px !important;
+}
+.transaction-history-page .card-details-area .card-info .card-info-form {
+    margin: 0;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.transaction-history-page .card-details-area .card-info form.validatorForm .check-icon {
+    width: 30px;
+    height: 14px;
+    background-color: #000;
+    top: 22px !important;
+}
+.transaction-history-page .card-details-area .total-area {
+    position: relative;
+    border-top: 1px solid #EAECEB;
+    padding-top: 12px;
+    margin-top: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.transaction-history-page .card-details-area .total-area h3 {
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+
+@media(max-width: 1500px){
+    .radio-buttons.card-select-area .custom-radio .radio-btn .hobbies-icon,
+    .radio-buttons.card-select-area .custom-radio .radio-btn .hobbies-icon svg{
+        width: 24px;
+        height: 24px;
+    }
+    .radio-buttons.card-select-area .custom-radio .radio-btn .text-box {
+        padding-left: 7px;
+        width: 73%;
+    }
+}   
+@media(max-width: 780px){
+    .radio-buttons.card-select-area .radio-btns-area {
+        width: 50%;
+    }
+}
+@media(max-width: 580px){
+    .radio-buttons.card-select-area .radio-btns-area {
+        width: 100%;
+    }
+}
+@media(max-width: 480px){
+    .transaction-history-page .card-details-area h3{
+        font-size: 15px;
+    }
+    .transaction-history-page .card-details-area .card-box .icon {
+        margin-right: 10px;
+    }
+    .transaction-history-page .card-details-area .card-box .icon img {
+        width: 21px;
+    }
+    .transaction-history-page .card-details-area .card-info{
+        padding: 14px 15px;
+    }
+}

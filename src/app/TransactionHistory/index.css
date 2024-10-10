@@ -1,0 +1,228 @@
+
+.transaction-history-page .content {
+    position: relative;
+    display: flex;
+    align-content: flex-start;
+    min-height: 92vh;
+    flex-wrap: wrap;
+}
+
+.transaction-history-page .content .transaction-box {
+    border-radius: 12px;
+    border: 1px solid #F5F5F5;
+    background: #FFF;
+    box-shadow: -2px 4px 2.2px 0px rgba(0, 0, 0, 0.04);
+    padding: 50px 120px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.transaction-history-page .content .transaction-box h2 {
+    color: #202020;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.transaction-history-page .content .transaction-box p {
+    color: #202020;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.transaction-history-page .chips-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #EAEBEC;
+    background-color: #FFF;
+    margin-bottom: 30px;
+}
+
+.transaction-history-page .chips-box .left-area {
+    position: relative;
+}
+.transaction-history-page .chips-box .left-area h4 {
+    color: #2A2B2E;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+
+.transaction-history-page .chips-box .left-area h4 span {
+    color: rgba(42, 43, 46, 0.50);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+.transaction-history-page .chips-box .left-area p {
+    color: #999;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+.transaction-history-page .chips-box .right-area {
+    position: relative;
+}
+
+.transaction-history-page .chips-box .right-area h4 {
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+.transaction-history-page .chips-box .right-area h4.plus-trans{
+    color: #156CF7;
+}
+.transaction-history-page .chips-box .right-area h4.minus-trans{
+    color: #DF2C2E;
+}
+.transaction-history-page .chips-box .right-area h4 .icon {
+    display: inline-block;
+    width: 20px;
+    position: relative;
+    top: -2px;
+    margin-right: 4px;
+}
+
+.transaction-history-page .transaction-top-area {
+    position: relative;
+}
+
+.transaction-history-page .transaction-top-area .max-value {
+    border-radius: 7px 0px 0px 7px;
+    border: 1px solid #F5F5F5;
+    background: #FFF;
+    box-shadow: 0px 2px 1.8px 0px rgba(0, 0, 0, 0.10);
+    padding: 10px;
+    color: #156CF7;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    position: absolute;
+    right: -120px;
+    top: 0;
+}
+.transaction-history-page .chiz-area {
+    position: relative;
+    margin: 20px 0;
+}
+
+.transaction-history-page .chiz-area p {
+    color: #156CF7 !important;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin-bottom: 0 !important;
+}
+.transaction-history-page .chiz-area h1 {
+    color: #156CF7;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.transaction-history-page .chiz-area h1 span {
+    font-size: 12px;
+} 
+
+
+@media(max-width: 1366px){
+    .transaction-history-page .content .transaction-box {
+        padding: 50px;
+        width: 90%;
+    }
+    .transaction-history-page .transaction-top-area .max-value{
+        right: -51px;
+    }
+}
+@media(max-width: 650px){
+    .transaction-history-page .transaction-top-area .max-value {
+        right: auto;
+        position: relative;
+        width: 100%;
+        display: block;
+        border-radius: 5px;
+    }
+    .transaction-history-page .chiz-area h1{
+        font-size: 27px;
+    }
+}
+@media(max-width: 530px){
+    .transaction-history-page .chips-box {
+        justify-content: center;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+    .transaction-history-page .chips-box .left-area,
+    .transaction-history-page .chips-box .right-area{
+        width: 100%;
+        text-align: center;
+    }
+    .transaction-history-page .chips-box .right-area h4{
+        text-align: center;
+        font-size: 16px;
+        margin-top: 7px;
+    }
+}
+@media(max-width: 480px){
+    .transaction-history-page .content .transaction-box {
+        padding: 30px 20px;
+        width: 93%;
+    }
+    .transaction-history-page .content .transaction-box h2{
+        font-size: 20px;
+    }
+    .challenge-details-page .amount-box h4{
+        font-size: 14px;
+    }
+}
+@media(max-width: 320px){
+    .transaction-history-page .content .transaction-box h2{
+        font-size: 18px;
+    }
+    .challenge-details-page .amount-box h4,
+    .transaction-history-page .chips-box .right-area h4{
+        font-size: 14px;
+    }
+    .transaction-history-page .transaction-top-area .max-value,
+    .transaction-history-page .chips-box .left-area h4 span {
+        font-size: 9px;
+    }
+    .transaction-history-page .chiz-area p,
+    .transaction-history-page .chips-box .left-area h4{
+        font-size: 12px !important;
+    }
+    .transaction-history-page .chiz-area h1 {
+        font-size: 20px;
+    }
+}

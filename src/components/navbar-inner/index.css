@@ -1,0 +1,27 @@
+.chips-exchange-nav.nav-two .inner-container .searchbox .dropdown .dropdown-toggle p {
+    margin-bottom: 0;
+    margin-left: 15px;
+    font-size: 13px;
+    color: #000;
+}
+.chips-exchange-nav.nav-two {
+    position: relative;
+    top: auto;
+    display: flex;
+    justify-content: end;
+    margin-top: -6px;
+    margin-bottom: 36px;
+}
+
+@media(max-width: 991px) {
+    .chips-exchange-nav.nav-two {
+        position: absolute;
+        display: flex;
+        justify-content: end;
+        margin-top: 0;
+        margin-bottom: 0;
+        top: -72px;
+        right: -10px;
+        z-index: 1;
+    }
+}

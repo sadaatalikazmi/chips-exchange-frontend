@@ -1,0 +1,32 @@
+.singup-page .content .signup-form .img-area {
+    position: relative;
+    margin: 42px 0;
+    text-align: center;
+}
+.singup-page .content .signup-form form.validatorForm .group-input.icon-input {}
+
+.singup-page .content .signup-form form.validatorForm .group-input label {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    z-index: 2;
+}
+
+.singup-page .content .signup-form form.validatorForm .group-input.icon-input .MuiGrid-item {
+    position: relative;
+}
+
+.singup-page .content .signup-form form.validatorForm .group-input.icon-input .MuiGrid-item  .email-icon {position: absolute;z-index: 2;left: 15px;top: 16px;}
+
+.singup-page .content .signup-form form.validatorForm .group-input.icon-input .MuiGrid-item .check-icon {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+}
+
+.singup-page .content .signup-form form.validatorForm .group-input.icon-input .MuiGrid-item .MuiInputBase-root {
+    padding: 9px 36px !important;
+}

@@ -1,0 +1,532 @@
+.chips-exchange-page {
+    background: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    color: #5A5A5A;
+}
+
+::selection {
+    background-color: #49AEFD;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.sec-tittle {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 34%;
+    margin: 0 auto 30px;
+}
+
+.sec-tittle h2 {
+    text-align: center;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 7px 10px 20px rgba(91, 143, 222, 0.4), inset 8px 8px 16px rgba(223, 236, 255, 0.7), inset -15px -15px 30px rgba(188, 215, 255, 0.6);
+    border-radius: 25px;
+    z-index: 9;
+    width: 100%;
+    padding: 12px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 140%;
+    /* identical to box height, or 48px */
+    text-align: center;
+    color: #293A49;
+    transition: all 0.3s ease-in-out;
+}
+
+.sec-tittle h2:after {
+    content: "";
+    position: absolute;
+    right: -5px;
+    bottom: -5px;
+    width: 45px;
+    height: 40px;
+    background: #F2F7FF;
+    box-shadow: -2px 0px 10px rgba(26, 127, 206, 0.4), inset 2px 2px 3px #E3EEFF, inset -4px -4px 8px #E1EDFF;
+    border-radius: 24px 0px;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.sec-tittle h2:before {
+    content: "";
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    width: 45px;
+    height: 40px;
+    background: #49AEFD;
+    box-shadow: 2px 4px 10px rgba(26, 127, 206, 0.6), inset 2px 2px 3px #58BFFB, inset -4px -4px 8px #368BF3;
+    border-radius: 24px 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+.sec-tittle:hover h2{
+    box-shadow: 7px 10px 20px rgba(0, 0, 0, 0.4), inset 8px 8px 16px rgba(223, 236, 255, 0.7), inset -15px -15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.sec-tittle:hover h2:before{
+    background: #F2F7FF;
+    box-shadow: -2px 0px 10px rgba(26, 127, 206, 0.4), inset 2px 2px 3px #E3EEFF, inset -4px -4px 8px #E1EDFF;
+}
+
+.sec-tittle:hover h2:after{
+    background: #49AEFD;
+    box-shadow: 2px 4px 10px rgba(26, 127, 206, 0.6), inset 2px 2px 3px #58BFFB, inset -4px -4px 8px #368BF3;
+}
+
+.btn-style-one {
+    position: relative;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202020;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    padding: 8px 30px;
+    background-color: #fff;
+    border-radius: 40px;
+    z-index: 9;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn-style-one:hover {
+    background-color: transparent;
+    color: #202020;
+    border: 1px solid #202020;
+}
+
+.btn-style-two {
+    position: relative;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202020;
+    border: 1px solid #202020;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    padding: 8px 30px;
+    background-color: transparent;
+    border-radius: 40px;
+    z-index: 9;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn-style-two:hover {
+    background-color: #fff;
+    color: #202020;
+    border: 1px solid #fff;
+}
+
+video#v0 {
+    object-fit: cover;
+    width: 100%;
+}
+
+a:hover,
+a:focus,
+a:visited {
+    text-decoration: none;
+    outline: none;
+    text-decoration: none !important;
+}
+.blue-text{
+    color: #156CF7;
+}
+.chips-exchange-page .banner-sec {
+    background-color: #F1F4FD;
+    padding: 100px 0;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.chips-exchange-page .banner-sec .img-box-banner {
+    position: absolute;
+    right: -232px;
+    top: -253px;
+    left: -307px;
+}
+.chips-exchange-page .banner-sec .img-box-banner img {
+    width: 100%;
+}
+.chips-exchange-page .banner-sec .text-box-banner {
+    position: relative;
+    margin-top: 174px;
+}
+
+.chips-exchange-page .banner-sec .text-box-banner h1 {
+    color: #1D1D1D;
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    position: absolute;
+    top: -165px;
+    width: 900px;
+    z-index: 2;
+}
+.chips-exchange-page .banner-sec .text-box-banner p {
+    padding-right: 350px;
+    color: var(--Text-and-Main-Gray-2, #909090);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.556px;
+}
+
+.sec-title {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.sec-title h5 {
+    color: #000;
+
+/* Ploombr/Sub Heading */
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 16px */
+    letter-spacing: 2.08px;
+    text-transform: uppercase;
+    padding-left: 60px;
+    position: relative;
+}
+
+.sec-title h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 51px;
+    height: 1px;
+    background-color: #000;
+    transform: translateY(-50%);
+}
+
+.sec-title h2 {
+    color: #156CF7;
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+     /* 70.4px */
+}
+
+.chips-exchange-page .whyus-sec {
+    position: relative;
+    padding: 100px 0;
+}
+
+.chips-exchange-page .whyus-sec .counter-box {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.chips-exchange-page .whyus-sec .counter-box .counter-inner {
+    margin-left: 34px;
+    border-left: 1px solid #ADAFAE;
+    padding-left: 34px;
+}
+
+.chips-exchange-page .whyus-sec .counter-box .counter-inner .counter-start {
+    color: #156CF7;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 44px */
+    margin-bottom: 7px;
+}
+
+.chips-exchange-page .whyus-sec .counter-box .counter-inner .counter-start i {
+    font-style: normal;
+    margin-left: 7px;
+}
+
+.chips-exchange-page .whyus-sec .counter-box .counter-inner p {
+    color: #5A5A5A;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 16px */
+    text-transform: capitalize;
+}
+.chips-exchange-page .whyus-sec .counter-box .counter-inner:first-child {
+    border-left: none;
+}
+.chips-exchange-page .whyus-sec .img-box {
+    width: 85%;
+}
+.chips-exchange-page .whyus-sec .experince-block {
+    border-radius: 8px;
+    background: #FBFFFE;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.chips-exchange-page .whyus-sec .experince-block .img-box {
+    margin-bottom: 20px;
+}
+
+.chips-exchange-page .whyus-sec .experince-block .text-box {
+    position: relative;
+}
+
+.chips-exchange-page .whyus-sec .experince-block .text-box h4 {
+    color: #5A5A5A;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 24px */
+    text-transform: capitalize;
+    margin-bottom: 17px;
+}
+
+.chips-exchange-page .whyus-sec .experince-block .text-box p {
+    color: #5A5A5A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 27.2px */
+    text-transform: capitalize;
+}
+
+.chips-exchange-page .faqs-sec {
+    position: relative;
+    padding: 100px 0;
+    background-color: #F1F4FD;
+}
+
+.chips-exchange-page .faqs-sec .tab-content {
+    position: relative;
+    width: 100%;
+}
+
+.chips-exchange-page .faqs-sec .tab-content .tab-pane {
+    padding: 0 !important;
+}
+
+.chips-exchange-page .faqs-sec .tab-content .tab-pane #accordion {
+    position: relative;
+}
+
+.chips-exchange-page .faqs-sec .tab-content .tab-pane #accordion .card {
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px dashed #ADAFAE;
+}
+
+.chips-exchange-page .faqs-sec .tab-content .tab-pane #accordion .card .card-header {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+}
+
+.chips-exchange-page .faqs-sec .tab-content .tab-pane #accordion .card .card-header button {
+    width: 100%;
+    text-align: left;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 33.6px */
+    text-decoration: none !important;
+    padding: 15px 0;
+}
+
+.chips-exchange-page .faqs-sec .tab-content .tab-pane #accordion .card .card-header button:before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 24px;
+    height: 24px;
+    background-image: url('../../static/images/faq-bottom.svg');
+    background-size: 100%;
+    transform: translateY(-50%);
+}
+.chips-exchange-page .faqs-sec .tab-content .tab-pane #accordion .card .card-header button.collapsed:before{
+    background-image: url('../../static/images/faq-top.svg');
+}
+.chips-exchange-page .faqs-sec .tab-content .tab-pane #accordion .card .card-body {
+    padding: 0 0 17px;
+    color: #ADAFAE;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 27.2px */
+    text-transform: capitalize;
+}
+
+@media(max-width: 1610px){
+    .chips-exchange-page .banner-sec .img-box-banner {
+        right: -159px;
+        top: -253px;
+        left: -220px;
+    }
+    .chips-exchange-page .banner-sec .text-box-banner p{
+        padding-right: 240px;
+    }
+}
+@media(max-width: 1450px){
+    .chips-exchange-page .banner-sec .img-box-banner {
+        right: -72px;
+        top: -330px;
+        left: -187px;
+    }
+    .chips-exchange-page .banner-sec {
+        padding: 204px 0 179px;
+    }
+    .chips-exchange-page .banner-sec .text-box-banner {
+        margin-top: 94px;
+    }
+}
+
+@media(max-width: 1320px){
+    .chips-exchange-page .banner-sec .text-box-banner h1{
+        font-size: 50px;
+    }
+    .chips-exchange-page .banner-sec .img-box-banner {
+        right: -62px ;
+        left: -111px;
+        top: -306px;
+    }
+    .chips-exchange-page .banner-sec .text-box-banner p {
+        padding-right: 200px;
+        font-size: 14px;
+    }
+    .chips-exchange-page .banner-sec .text-box-banner h1 {
+        font-size: 62px;
+    }
+}
+
+@media(max-width: 1199px){
+    .chips-exchange-page .banner-sec .text-box-banner h1 {
+        font-size: 50px;
+    }
+    .chips-exchange-page .banner-sec {
+        padding: 348px 0 37px;
+        height: 100%;
+    }
+    .chips-exchange-page .banner-sec .text-box-banner p {
+        padding-right: 130px;
+        font-size: 14px;
+    }
+    .chips-exchange-page .banner-sec .img-box-banner {
+        right: -62px;
+        top: -367px;
+        left: -111px;
+    }
+    .chips-exchange-page .banner-sec .text-box-banner {
+        margin-top: 26px;
+    }    
+}
+
+@media(max-width: 991px){
+    .chips-exchange-page .banner-sec .img-box-banner {
+        right: auto;
+        top: auto;
+        left: auto;
+        position: relative;
+    }
+    .chips-exchange-page .banner-sec .text-box-banner h1 {
+        font-size: 50px;
+        position: relative;
+        top: auto;
+    }
+    .chips-exchange-page .banner-sec {
+        padding: 88px 0 50px;
+    }
+    .chips-exchange-page .banner-sec {
+        padding: 88px 0 50px;
+        height: 100%;
+    }
+    .chips-exchange-page .banner-sec .text-box-banner {
+        position: relative;
+        margin-top: 19px;
+    }
+    .chips-exchange-page .whyus-sec .counter-box {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .chips-exchange-page .whyus-sec .img-box {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 700px){
+    .chips-exchange-page .banner-sec .text-box-banner h1 {
+        font-size: 40px;
+        position: relative;
+        top: auto;
+    }
+    .chips-exchange-page .banner-sec .text-box-banner p {
+        padding-right: 0;
+        font-size: 14px;
+    }
+    .sec-title h2 {
+        font-size: 26px;
+    }
+    .chips-exchange-page .whyus-sec .counter-box .counter-inner {
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+    
+}
+@media(max-width: 480px){
+    .chips-exchange-page .banner-sec .text-box-banner h1 {
+        font-size: 31px;
+        position: relative;
+        top: auto;
+    }
+    .chips-exchange-page .whyus-sec .counter-box .counter-inner .counter-start{
+        font-size: 22px;
+    }
+    .chips-exchange-page .whyus-sec .counter-box .counter-inner p{
+        font-size: 12px;
+    }
+    .chips-exchange-page .whyus-sec .experince-block .text-box h4{
+        font-size: 20px;
+    }
+    .chips-exchange-page .whyus-sec .experince-block .text-box p{
+        font-size: 14px;
+    }
+    .chips-exchange-page .faqs-sec .tab-content .tab-pane #accordion .card .card-header button{
+        font-size: 16px;
+    }
+    .chips-exchange-page .faqs-sec .tab-content .tab-pane #accordion .card .card-body{
+        font-size: 12px;
+    }
+}
+@media(max-width: 380px){
+    .chips-exchange-page .banner-sec .text-box-banner h1 {
+        font-size: 25px;
+    }
+    .chips-exchange-page .banner-sec .text-box-banner p {
+        padding-right: 0;
+        font-size: 13px;
+        line-height: 22px;
+    }
+}

@@ -1,0 +1,181 @@
+.singup-page {
+    position: relative;
+    margin-left: 300px;
+    padding-top: 20px;
+    padding-right: 15px;
+    background-color: #F1F4FD;
+    padding-bottom: 30px;
+}
+.singup-page .content {
+    position: relative;
+    display: flex;
+    align-content: center;
+    min-height: 92vh;
+    flex-wrap: wrap;
+}
+.singup-page .content .MuiCheckbox-colorSecondary.Mui-checked{
+    color: #156CF7 !important; 
+}
+.singup-page .content .signup-form {
+    border-radius: 12px;
+    border: 1px solid #F5F5F5;
+    background: #FFF;
+    box-shadow: -2px 4px 2.2px 0px rgba(0, 0, 0, 0.04);
+    padding: 50px 120px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.singup-page .content .signup-form h2 {
+    color: #202020;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.singup-page .content .signup-form p {
+    color: #202020;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.singup-page .content .signup-form p.MuiFormHelperText-root {
+    color: #f44336 !important;
+    font-size: 12px !important;
+    position: absolute;
+    bottom: -17px;
+}
+.singup-page .content .signup-form form.validatorForm .group-input label .singin-btn {
+    color: #156CF7;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+.trems-modal .content-area {
+    padding: 0 !important;
+}
+.singup-page .content .signup-form p .singin-btn {
+    color: #156CF7;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.singup-page .content .signup-form form.validatorForm {
+    margin-top: 20px;
+}
+
+.singup-page .content .signup-form form.validatorForm .group-input {
+    position: relative;
+}
+
+.singup-page .content .signup-form form.validatorForm .group-input .MuiGrid-item {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.singup-page .content .signup-form form.validatorForm .group-input .MuiGrid-item .MuiFormControl-root {
+    position: relative;
+}
+
+.MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-fullWidth.MuiInput-fullWidth.MuiInputBase-formControl.MuiInput-formControl.MuiInputBase-marginDense.MuiInput-marginDense {
+    border-radius: 8px;
+    border: 1px solid #DCDCDC;
+    padding: 9px 15px;
+    color: #898989;
+}
+
+.MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-fullWidth.MuiInput-fullWidth.MuiInputBase-formControl.MuiInput-formControl.MuiInputBase-marginDense.MuiInput-marginDense::before {
+    display: none;
+}
+
+.MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-fullWidth.MuiInput-fullWidth.MuiInputBase-formControl.MuiInput-formControl.MuiInputBase-marginDense.MuiInput-marginDense::after {
+    display: none;
+}
+
+.MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-fullWidth.MuiInput-fullWidth.MuiInputBase-formControl.MuiInput-formControl.MuiInputBase-marginDense.MuiInput-marginDense input {
+    color: #151624;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.singup-page .content .signup-form form.validatorForm .group-input .MuiGrid-item.MuiGrid-grid-xs-6 {
+    padding: 0px 3px;
+}
+
+.singup-page .content .signup-form .btn.btn-secondary {
+    border-radius: 24px;
+    background: #156CF7;
+    width: 100%;
+    border: 1px solid #156CF7;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+.singup-page .content .signup-form .btn.btn-secondary:hover {
+    background-color: transparent;
+    color: #156CF7;
+}
+
+
+@media(max-width: 1280px){
+    .singup-page .content .signup-form{
+        padding: 50px;
+    }
+}
+
+@media(max-width: 991px){
+    .singup-page {
+        position: relative;
+        margin-left: 65px;
+    }
+    .singup-page.active {
+        margin-left: 300px;
+    }
+}
+
+@media(max-width: 767px){
+    .singup-page .content .signup-form {
+        padding: 30px;
+        width: 94%;
+        margin-right: 0;
+    }
+    .singup-page.active {
+        margin-left: 222px;
+    }
+}
+
+@media(max-width: 480px){
+    .singup-page .content .signup-form form.validatorForm .group-input .MuiGrid-item.MuiGrid-grid-xs-6 {
+        flex-grow: 0;
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    
+    .singup-page.active {
+        margin-left: 210px;
+    }
+    .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-fullWidth.MuiInput-fullWidth.MuiInputBase-formControl.MuiInput-formControl.MuiInputBase-marginDense.MuiInput-marginDense input,
+    .singup-page .content .signup-form p{
+        font-size: 12px;
+    }
+    .singup-page .content .signup-form .btn.btn-secondary{
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+    .singup-page .content .signup-form h2{
+        font-size: 20px;
+    }
+}

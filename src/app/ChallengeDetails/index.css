@@ -1,0 +1,152 @@
+.challenge-details-page .content .transaction-box .challenge-top-area p {
+    color: #999;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.challenge-details-page .challenge-top-area {
+    position: relative;
+}
+
+.transaction-history-page .content .transaction-box .challenge-top-area p {
+    color: #999;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.challenge-details-page  .changes-limit-box {
+    border-radius: 16px;
+    background: var(--Neutrals, #FFF);
+    box-shadow: 0px 4px 16px 0px rgba(141, 211, 187, 0.15);
+    padding: 25px;
+    margin-bottom: 50px;
+}
+
+.challenge-details-page .changes-limit-box label.MuiFormLabel-root {
+    padding-left: 18px;
+    padding-top: 8px;
+}
+.challenge-details-page .changes-limit-box h4 {
+    color: #121;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+.challenge-details-page .changes-limit-box .MuiFormControl-root label.MuiFormLabel-root.Mui-focused{
+    margin-top: -3px;
+    background-color: transparent;
+    padding: 0;
+    padding-left: 5px;
+}
+.challenge-details-page .changes-limit-box label.MuiFormLabel-root.MuiInputLabel-shrink{
+    padding: 0;
+    padding-left: 5px;
+}
+label.MuiFormLabel-root.Mui-focused {
+    background-color: #fff;
+    z-index: 2;
+    padding: 2px;
+    left: 5px;
+    margin-top: 2px
+}
+.challenge-details-page .amount-box {
+    position: relative;
+    margin-bottom: 36px;
+    border-bottom: 1px solid #97979750;
+    padding-bottom: 56px;
+}
+.challenge-details-page .amount-box .group-input .signup-fields span {
+    position: absolute;
+    right: 15px;
+    top: 43px;
+    border-left: 1px solid #F2F2F2;
+    padding-left: 8px;
+}
+.challenge-details-page .amount-box .list-x {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.challenge-details-page .amount-box .list-x li {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.challenge-details-page .amount-box .list-x li:last-child {
+    margin-right: 0;
+}
+
+.challenge-details-page .amount-box .list-x li button {
+    border-radius: 6px;
+    background: #F5F5F5;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    color: #979797;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+}
+.challenge-details-page .amount-box .list-x li button:hover,
+.challenge-details-page .amount-box .list-x li button.active{
+    background: #156CF7;
+    color: #fff;
+}
+.challenge-details-page .quantity-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.challenge-details-page .quantity-box h2 {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.63) !important;
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+
+@media(max-width: 600px){
+    .challenge-details-page .amount-box .list-x{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .challenge-details-page .amount-box .list-x li {
+        width: 20%;
+        margin-bottom: 10px;
+    }
+    .challenge-details-page .amount-box{
+        padding-bottom: 7px;
+    }
+}
+
+
+@media(max-width: 480px){
+    .challenge-details-page .amount-box .list-x li {
+        width: 27%;
+    }
+    .challenge-details-page .amount-box .group-input .signup-fields span {
+        font-size: 11px;
+        top: 61px;
+    }
+    .challenge-details-page .quantity-box h2{
+        font-size: 14px !important;
+    }
+}

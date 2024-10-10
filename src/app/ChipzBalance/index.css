@@ -1,0 +1,213 @@
+.challenge-details-page .balnce-box {
+    border-radius: 8px;
+    background: #156CF7;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 40px;
+    flex-wrap: wrap;
+    padding: 111px 20px;
+}
+
+.challenge-details-page .balnce-box h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1px;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.challenge-details-page .balnce-box p {
+    color: #D8D8D8 !important;
+    font-size: 12px !important;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+.transaction-history-page .content .transaction-box .nav-tabs {
+    border-bottom: none;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    background: #F5F5F5;
+    padding: 10px;
+}
+
+.transaction-history-page .content .transaction-box .nav-tabs .nav-item {
+    width: 50%;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.transaction-history-page .content .transaction-box .nav-tabs .nav-item .nav-link {
+    width: 100%;
+    margin-bottom: 0 !important;
+    color: #B5B5B5;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    padding: 15px;
+    border: none !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.transaction-history-page .content .transaction-box .nav-tabs .nav-item.show .nav-link, 
+.transaction-history-page .content .transaction-box .nav-tabs .nav-item.show .nav-link,
+.transaction-history-page .nav-tabs .nav-item.show .nav-link, .transaction-history-page .nav-tabs .nav-link.active {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.06);
+}
+.challenge-details-page .amount-box h4 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.challenge-details-page .amount-box.style-two {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+.challenge-details-page .amount-box.style-two .group-input .signup-fields span {
+    top: 18px;
+}
+
+.challenge-details-page .amount-box.style-two form.validatorForm .group-input .MuiGrid-item {
+    margin-bottom: 0;
+}
+
+.challenge-details-page .amount-box.style-two form.validatorForm p {
+    color: #979797;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin: 6px 0 23px;
+}
+.challenge-details-page .amount-box.style-two .btns-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.challenge-details-page .amount-box.style-two .btns-group .refund-btn {
+    border-radius: 12px;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 5px 0px rgba(85, 94, 104, 0.10);
+    border: none;
+    margin: 0 15px;
+    padding: 0px;
+    width: 24%;
+    transition: all 0.3s ease-in-out;
+}
+.challenge-details-page .amount-box.style-two .btns-group .refund-btn span {
+    padding: 12px 10px;
+    display: block;
+    width: 100%;
+    color: #D8D8D8;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 175% */
+    letter-spacing: -0.16px;
+    transition: all 0.3s ease-in-out;
+}
+.challenge-details-page .amount-box.style-two .btns-group .refund-btn i {
+    display: block;
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 8px;
+    border-radius: 8px 8px 0 0;
+    color: #979797;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.14px;
+    transition: all 0.3s ease-in-out;
+}
+.challenge-details-page .amount-box.style-two .btns-group .refund-btn.active,
+.challenge-details-page .amount-box.style-two .btns-group .refund-btn:hover {
+    background: #156CF7;
+}
+
+.challenge-details-page .amount-box.style-two .btns-group .refund-btn.active span,
+.challenge-details-page .amount-box.style-two .btns-group .refund-btn:hover span {
+    color: #fff;
+}
+.transaction-history-page .card-details-area form {
+    margin-top: 25px;
+}
+.transaction-history-page .card-details-area form .StripeElement.StripeElement--empty {
+    background-color: #fff;
+    padding: 14px;
+    border-radius: 8px;
+}
+.transaction-history-page .card-details-area form .form-card {
+    background-color: #156CF7;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.transaction-history-page .card-details-area form .form-card label {
+    margin-bottom: 13px;
+    color: #fff;
+}
+.transaction-history-page .card-details-area form button {
+    margin-top: 19px;
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #156CF7;
+    padding: 7px;
+    border-radius: 8px;
+}
+.radio-buttons.card-select-area .custom-radio .radio-btn .card-detail-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+@media(max-width: 600px){
+    .transaction-history-page .content .transaction-box .nav-tabs .nav-item .nav-link{
+        font-size: 13px;
+        padding: 10px;
+    }
+    .challenge-details-page .balnce-box {
+        padding: 62px 20px;
+    }
+    .challenge-details-page .balnce-box h1{
+        font-size: 32px;
+    }
+}
+
+@media(max-width: 480px){
+    .challenge-details-page .amount-box.style-two .group-input .signup-fields span {
+        top: 21px;
+    }
+    .challenge-details-page .balnce-box h1 {
+        font-size: 24px;
+    }
+    .challenge-details-page .balnce-box {
+        padding: 32px 20px;
+    }
+}

@@ -1,0 +1,638 @@
+/* .chips-exchange-nav.sticky-nav {
+    position: fixed;
+    background-color: #000;
+    top: 0;
+} */
+
+.chips-exchange-nav .navbar-nav .social-menu {
+  position: relative;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 6px;
+  list-style: none;
+}
+
+
+
+.chips-exchange-nav {
+  position: absolute;
+  top: 29px;
+  z-index: 999;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.chips-exchange-nav.sticky-nav .inner-container .searchbox a.btn-style-two,
+.chips-exchange-nav.sticky-nav .inner-container .searchbox a.btn-style-one:hover {
+  color: #202020;
+  border-color: #202020;
+}
+
+.chips-exchange-nav.sticky-nav {
+  position: fixed;
+  top: 0;
+  background: #fff;
+  box-shadow: 7px 10px 20px #156CF740, inset 8px 8px 16px #156CF770, inset -15px -15px 30px #156CF760;
+  padding: 10px 0 0;
+}
+
+.chips-exchange-nav .inner-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  position: relative;
+  width: 80%;
+}
+
+.chips-exchange-nav .navbar-nav .social-icon .icon-area {
+  position: relative;
+  margin: 0 5px;
+}
+
+.chips-exchange-nav .navbar-nav .social-icon .icon-area i img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.landing-dogfather .landing-marquee .marquee-container a {
+  margin-right: 15px;
+}
+
+.chips-exchange-nav .inner-container .navbar-brand {
+  width: 10%;
+  padding: 0;
+  margin-top: -3px;
+  position: relative;
+  top: -5px;
+}
+
+.navbar .button-head button .signIn-loader {
+  padding: 0px 40px;
+}
+
+/* .navbar .button-head span:hover,
+.navbar .button-head button:hover {  
+background-color: #543c90;
+} */
+.img-trust-wallet {
+  border-radius: 12px;
+  margin-right: 26px;
+}
+
+.signup-modal .connect-wallat-signup .text-meta-mask-signup h5 span img {
+  width: 5% !important;
+}
+
+
+.chips-exchange-nav .navbar-nav .connectbutton {
+  background: no-repeat;
+  border: none;
+  color: #d0a535;
+  text-decoration: underline;
+}
+
+.chips-exchange-nav .navbar-collapse {
+  justify-content: start;
+  width: 87%;
+  left: 0;
+  position: relative;
+  padding-left: 19px;
+}
+
+.chips-exchange-nav .navbar-nav li {
+  margin-right: 30px;
+  transition: all 0.3s ease-in-out;
+  padding-top: 0;
+}
+
+.chips-exchange-nav .navbar-nav li.nav-img {
+  margin-right: 0;
+  margin-left: 10px;
+  padding-top: 11px;
+}
+
+.chips-exchange-nav .navbar-nav li.nav-img {
+  margin-right: 0;
+  margin-left: 10px;
+  padding-top: 11px;
+}
+
+.chips-exchange-nav .navbar-nav li.nav-img .right-img {
+  width: 178px;
+}
+
+.chips-exchange-nav .navbar-nav li a {
+  font-size: 13px;
+  display: block;
+  font-weight: 400;
+  color: #293A49;
+  padding: 0 0 12px !important;
+  font-family: 'Inter', sans-serif;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.chips-exchange-nav .navbar-nav li a::before {
+  content: "";
+  position: absolute;
+  left: -100px;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #49AEFD;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.chips-exchange-nav .navbar-nav li a:hover::before,
+.chips-exchange-nav .navbar-nav li a.active::before {
+  opacity: 1;
+  visibility: visible;
+  left: 0;
+}
+
+.chips-exchange-nav .navbar-nav li a:hover,
+.chips-exchange-nav .navbar-nav li a.active {
+  color: #49AEFD;
+}
+
+
+.chips-exchange-nav .inner-container .searchbox {
+  position: absolute;
+  margin-bottom: 0;
+  top: -16px;
+  right: 5px;
+}
+
+.chips-exchange-nav .inner-container .searchbox a {
+  margin-left: 10px;
+}
+
+.chips-exchange-nav .inner-container .searchbox a.btn-style-two,
+.chips-exchange-nav .inner-container .searchbox a.btn-style-one:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.chips-exchange-nav .inner-container .searchbox a.btn-style-two:hover {
+  color: #202020;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1.05, 1.05);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.chips-exchange-nav .inner-container .searchbox .btn-style-one .icon {
+  position: relative;
+  padding-left: 6px;
+  top: 0px;
+}
+
+.chips-exchange-nav .navbar-collapse .close-btn-area {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0 0 0 / 0.9);
+  transition: all 0.4s ease-in-out;
+}
+
+.chips-exchange-nav .navbar-collapse.show .close-btn-area {
+  left: 0;
+}
+
+.chips-exchange-nav .navbar-collapse .close-btn-area .close-button {
+  background-color: transparent;
+  padding: 0;
+  top: 25px;
+  right: 28px;
+  background: transparent;
+  transition: all 0.4s ease-in-out;
+}
+
+.chips-exchange-nav .navbar-collapse .close-btn-area .close-button i {
+  font-size: 50px;
+  font-style: normal;
+}
+
+.chips-exchange-nav .price-sec {
+  position: absolute;
+  right: 8%;
+  width: 347px;
+  top: 95px;
+}
+
+.chips-exchange-nav .price-sec ul {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  background-color: rgba(244 245 252 / 85%);
+  border-radius: 12px;
+}
+
+.chips-exchange-nav .price-sec ul li {
+  width: 50%;
+  padding: 0 15px;
+  margin: 20px 0;
+}
+
+.chips-exchange-nav .price-sec ul li h4 {
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  color: #04061D;
+  margin-bottom: 15px;
+}
+
+.chips-exchange-nav .price-sec ul li:nth-child(1) {
+  border-right: 1px solid #04061D;
+}
+
+.chips-exchange-nav .price-sec ul li .price {
+  display: flex;
+}
+
+.chips-exchange-nav .price-sec ul li .price .icon {
+  margin-right: 10px;
+  position: relative;
+  top: -3px;
+}
+
+.chips-exchange-nav .price-sec ul li .price p {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 0;
+  color: #04061D;
+}
+
+.navbar-expand-lg .navbar-collapse .navbar-nav {
+  width: 56%;
+}
+
+.navbar-expand-lg .navbar-collapse .mobile-menu-logo {
+  display: none;
+}
+
+.chips-exchange-nav .navbar-nav li a .icon {
+  margin-right: 10px;
+}
+
+.chips-exchange-nav .navbar-nav li a .icon svg {
+  position: relative;
+  top: -2px;
+}
+
+.chips-exchange-nav .navbar-nav li a .icon svg path {
+  stroke: #293A49;
+}
+
+.chips-exchange-nav .navbar-nav li a:hover .icon svg path,
+.chips-exchange-nav .navbar-nav li a.active .icon svg path {
+  stroke: #49AEFD;
+}
+
+.chips-exchange-nav .inner-container .searchbox .dropdown {
+  position: relative;
+  width: 120px;
+}
+
+.chips-exchange-nav .inner-container .searchbox .dropdown .dropdown-toggle {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+}
+
+.chips-exchange-nav .inner-container .searchbox .dropdown .dropdown-toggle img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.chips-exchange-nav .inner-container .searchbox .dropdown .dropdown-toggle::after {
+  position: absolute;
+  left: 34px;
+  bottom: 8px;
+  width: 15px;
+  height: 15px;
+  background-image: url('../../static/images/arrow-down.svg');
+  content: "";
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.chips-exchange-nav .inner-container .searchbox .dropdown .dropdown-toggle p {
+  margin-bottom: 0;
+  margin-left: 15px;
+  font-size: 13px;
+}
+
+.chips-exchange-nav .inner-container .searchbox .dropdown .dropdown-menu {
+  padding: 0;
+  min-width: 117px;
+}
+
+.chips-exchange-nav .inner-container .searchbox .dropdown .dropdown-menu .dropdown-item {
+  margin: 0;
+  font-size: 13px;
+}
+
+@media(max-width: 1710px) {
+  .chips-exchange-nav .navbar-nav li {
+    margin-right: 20px;
+  }
+
+  .chips-exchange-nav .navbar-nav li a .icon {
+    margin-right: 5px;
+  }
+}
+
+@media(max-width: 1610px) {
+  .chips-exchange-nav.sticky-nav .inner-container .searchbox {
+    top: -11px;
+  }
+
+  .chips-exchange-nav.sticky-nav {
+    padding: 10px 0 0;
+  }
+}
+
+@media(max-width: 1550px) {
+
+  .chips-exchange-nav .navbar-collapse {
+    padding-left: 10px;
+  }
+
+  .chips-exchange-nav .navbar-nav li {
+    margin-right: 15px;
+  }
+}
+
+@media(max-width: 1450px) {
+  
+  .chips-exchange-nav .inner-container{
+    width: 89%;
+  }
+}
+
+@media(max-width:1300px) {
+  .navbar-expand-lg .navbar-collapse .navbar-nav {
+    width: 69%;
+  }
+}
+
+@media(max-width: 1240px) {}
+
+@media(max-width: 1199px) {
+
+  .chips-exchange-nav .navbar-collapse {
+    padding-left: 15px;
+  }
+
+  .chips-exchange-nav .navbar-nav li a {
+    font-size: 12px;
+  }
+
+  .chips-exchange-nav .navbar-nav li {
+    margin-right: 12px;
+  }
+
+  .chips-exchange-nav .inner-container {
+    justify-content: center;
+  }
+
+  .chips-exchange-nav .inner-container .navbar-brand {
+    padding: 0;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+@media(max-width: 1055px) {
+  .chips-exchange-nav .navbar-nav li {
+    margin-right: 17px;
+  }
+}
+
+@media(max-width: 991px) {
+  .navbar .button-head {
+    padding-right: 0px;
+  }
+
+  .chips-exchange-nav .navbar-nav li a .icon {
+    margin-right: 10px;
+    display: inline-block;
+  }
+
+  .chips-exchange-nav .navbar-nav li a {
+    padding-bottom: 0 !important;
+    margin-bottom: 0;
+    border: none !important;
+  }
+  .navbar-expand-lg .navbar-collapse .mobile-menu-logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    border-bottom: 1px solid rgba(137, 151, 163, 0.1);
+    margin-bottom: 20px;
+  }
+
+  .chips-exchange-nav .navbar-nav li {
+    margin-right: 0;
+    border-bottom: 1px solid rgba(137, 151, 163, 0.1);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+  }
+
+  .navbar-expand-lg .navbar-collapse .mobile-menu-logo .navbar-brand {
+    padding: 0;
+  }
+
+  .navbar-expand-lg .navbar-collapse .mobile-menu-logo .navbar-toggler {
+    position: relative;
+    top: auto;
+    right: 0;
+    transform: translateY(0);
+  }
+
+  .chips-exchange-nav .inner-container .navbar-brand {
+    width: 183px;
+    padding: 0;
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 10px;
+    padding-left: 27px;
+  }
+
+  .chips-exchange-nav .inner-container {
+    justify-content: start;
+  }
+
+  .chips-exchange-nav .navbar-collapse.show .navbar-nav .social-icon {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .chips-exchange-nav .price-sec {
+    right: 2%;
+    top: 52px;
+  }
+
+  .chips-exchange-nav .inner-container {
+    margin: 0;
+  }
+
+  .navbar .nav-link {
+    padding-right: 0px !important;
+  }
+
+  .chips-exchange-nav #navbarSupportedContent {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .chips-exchange-nav .inner-container .navbar-toggler {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    color: #368BF3;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    transform: translateY(-50%);
+  }
+
+  .chips-exchange-nav .inner-container .navbar-toggler .nav-links-btn {
+    position: absolute;
+    color: #fff;
+    border-radius: 0;
+    transform: translateY(-50%);
+  }
+
+  .chips-exchange-nav .navbar-collapse .navbar-nav {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .chips-exchange-nav .inner-container .searchbox {
+    display: block;
+    position: relative;
+    padding: 25px 30px;
+    text-align: center;
+  }
+
+  .chips-exchange-nav .navbar-collapse {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+    padding: 0;
+    z-index: 99;
+    height: 100%;
+    background-color: #F1F4FD;
+  }
+  .chips-exchange-nav .inner-container .searchbox a.btn-style-two, .chips-exchange-nav .inner-container .searchbox a.btn-style-one:hover {
+    color: #202020;
+    border-color: #202020;
+  } 
+  .chips-exchange-nav .navbar-nav .social-menu {
+    margin-top: 6px;
+    justify-content: center;
+  }
+
+
+  .chips-exchange-nav .inner-container .navbar-toggler {
+    z-index: 9;
+  }
+
+  .chips-exchange-nav .navbar-collapse .btn-style-one {
+    margin: 9px 21px;
+  }
+
+
+  .chips-exchange-nav .inner-container .nav-links-btn {
+    position: relative;
+    top: 3% !important;
+    right: 0px !important;
+    text-align: left;
+  }
+
+  .chips-exchange-nav .searchbox {
+    position: relative;
+    margin-bottom: 0;
+    top: 10px;
+  }
+  .chips-exchange-nav .inner-container {
+    width: 100%;
+}
+.chips-exchange-nav .inner-container .searchbox {
+  display: flex;
+  position: relative;
+  padding: 25px 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+}
+
+@media(max-width: 576px) {
+  .chips-exchange-nav .navbar-brand {
+    width: 208px;
+  }
+  .chips-exchange-nav .inner-container .searchbox {
+    display: block;
+  }
+
+  .chips-exchange-nav .navbar-brand img {
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+
+  .landing-dogfather .landing-marquee .marquee-container {
+    font-size: 14px;
+  }
+
+  .chips-exchange-nav .price-sec {
+    width: 91%;
+  }
+}
+
+
+@media (max-width: 380px) {
+
+
+  .chips-exchange-nav .inner-container .navbar-toggler {
+    right: 10px;
+  }
+}
+
+/* @media(max-width: 768px){
+.navbar .button-head button{
+  margin-left: 20px;
+}
+} */

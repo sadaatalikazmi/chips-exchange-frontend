@@ -1,0 +1,10 @@
+.singup-page .content .signup-form .center-heding {
+    margin: 60px 0;
+    text-align: center;
+}
+
+@media(max-width: 480px){
+    .singup-page .content .signup-form .center-heding{
+        font-size: 18px;
+    }
+}
